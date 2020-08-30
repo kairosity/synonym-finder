@@ -23,4 +23,5 @@ input {
     outline: none;
     border-bottom: 4px solid;
     font-size: 2em;
+    font-weight: 200;
 }
