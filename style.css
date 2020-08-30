@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    text-align: center;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(12, 1fr);
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}
+
+.wrapper {
+    align-self: center;
+}
+
+h1 {
+  font-family: "Lato", sans-serif;  
+  font-weight: 300;
+}
+
+input {
+    height: 40px;
+    width: 300px;
+    outline: none;
+    border-bottom: 4px solid;
+    font-size: 2em;
+}
